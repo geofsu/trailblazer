@@ -36,11 +36,11 @@ app.post('/webhook/', function (req, res) {
         sender = event.sender.id
         if (event.message && event.message.text) {
             text = event.message.text
-            if (text === 'Generic') {
-                sendGenericMessage(sender)
+            if (text === '2') {
+                send2MiMessage(sender)
                 continue
             }
-            sendTextMessage(sender, "Text received, echo: " + text.substring(0, 200))
+            // sendTextMessage(sender, "Text received, echo: " + text.substring(0, 200))
         }
         if (event.postback) {
             text = JSON.stringify(event.postback)
@@ -75,35 +75,35 @@ function sendTextMessage(sender, text) {
     })
 }
 
-function sendGenericMessage(sender) {
+function send2MiMessage(sender) {
     messageData = {
         "attachment": {
             "type": "template",
             "payload": {
-                "template_type": "generic",
+                "template_type": "2 Mi",
                 "elements": [{
-                    "title": "First card",
-                    "subtitle": "Element #1 of an hscroll",
-                    "image_url": "http://messengerdemo.parseapp.com/img/rift.png",
+                    "title": "Terry L Rhodes Trail System",
+                    "subtitle": "Ravine Trail",
+                    "image_url": "https://www.floridastateforests.org/sites/default/files/ffsf_logo_small.png",
                     "buttons": [{
                         "type": "web_url",
-                        "url": "https://www.messenger.com",
-                        "title": "web url"
+                        "url": "http://www.freshfromflorida.com/content/download/4820/30693/lake_talquin_bear_creek_tw.pdf",
+                        "title": "PDF Map of Trails"
                     }, {
                         "type": "postback",
                         "title": "Postback",
                         "payload": "Payload for first element in a generic bubble",
                     }],
-                }, {
-                    "title": "Second card",
-                    "subtitle": "Element #2 of an hscroll",
-                    "image_url": "http://messengerdemo.parseapp.com/img/gearvr.png",
-                    "buttons": [{
-                        "type": "postback",
-                        "title": "Postback",
-                        "payload": "Payload for second element in a generic bubble",
-                    }],
-                }]
+                } //{
+                //     "title": "Second card",
+                //     "subtitle": "Element #2 of an hscroll",
+                //     "image_url": "http://messengerdemo.parseapp.com/img/gearvr.png",
+                //     "buttons": [{
+                //         "type": "postback",
+                //         "title": "Postback",
+                //         "payload": "Payload for second element in a generic bubble",
+                //     }],
+                // }]
             }
         }
     }
@@ -123,20 +123,3 @@ function sendGenericMessage(sender) {
         }
     })
 }
-
-
-var pg = require('pg');
-
-var DATABASE_URL = 'postgres://tkkktgmwasgzis:8ZYY3XZKr_Li-EsxFzmGdQX4ZW@ec2-50-16-200-223.compute-1.amazonaws.com:5432/dced00g9j2sfrp';
-
-pg.defaults.ssl = true;
-pg.connect(process.env.DATABASE_URL, function(err, client) {
-  if (err) throw err;
-  console.log('Connected to postgres! Getting schemas...');
-
-  client
-    .query('SELECT table_schema,table_name FROM information_schema.tables;')
-    .on('row', function(row) {
-      console.log(JSON.stringify(row));
-    });
-});

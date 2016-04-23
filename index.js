@@ -36,11 +36,11 @@ app.post('/webhook/', function (req, res) {
         sender = event.sender.id
         if (event.message && event.message.text) {
             text = event.message.text
-            if (text === '2') {
-                send2MiMessage(sender)
+            if (text === 'Generic') {
+                sendGenericMessage(sender)
                 continue
             }
-             sendTextMessage(sender, "Text received, echo: " + text.substring(0, 200))
+            sendTextMessage(sender, "Text received, echo: " + text.substring(0, 200))
         }
         if (event.postback) {
             text = JSON.stringify(event.postback)
@@ -75,35 +75,35 @@ function sendTextMessage(sender, text) {
     })
 }
 
-function send2MiMessage(sender) {
+function sendGenericMessage(sender) {
     messageData = {
         "attachment": {
             "type": "template",
             "payload": {
-                "template_type": "2 Mi",
+                "template_type": "generic",
                 "elements": [{
-                    "title": "Terry L Rhodes Trail System",
-                    "subtitle": "Ravine Trail",
-                    "image_url": "https://www.floridastateforests.org/sites/default/files/ffsf_logo_small.png",
+                    "title": "First card",
+                    "subtitle": "Element #1 of an hscroll",
+                    "image_url": "http://messengerdemo.parseapp.com/img/rift.png",
                     "buttons": [{
                         "type": "web_url",
-                        "url": "http://www.freshfromflorida.com/content/download/4820/30693/lake_talquin_bear_creek_tw.pdf",
-                        "title": "PDF Map of Trails"
+                        "url": "https://www.messenger.com",
+                        "title": "web url"
                     }, {
                         "type": "postback",
                         "title": "Postback",
                         "payload": "Payload for first element in a generic bubble",
                     }],
-                } //{
-                //     "title": "Second card",
-                //     "subtitle": "Element #2 of an hscroll",
-                //     "image_url": "http://messengerdemo.parseapp.com/img/gearvr.png",
-                //     "buttons": [{
-                //         "type": "postback",
-                //         "title": "Postback",
-                //         "payload": "Payload for second element in a generic bubble",
-                //     }],
-                // }]
+                }, {
+                    "title": "Second card",
+                    "subtitle": "Element #2 of an hscroll",
+                    "image_url": "http://messengerdemo.parseapp.com/img/gearvr.png",
+                    "buttons": [{
+                        "type": "postback",
+                        "title": "Postback",
+                        "payload": "Payload for second element in a generic bubble",
+                    }],
+                }]
             }
         }
     }

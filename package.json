@@ -1,0 +1,19 @@
+{
+  "name": "trailblazer",
+  "version": "1.0.0",
+  "description": "Trailhacks Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geofsu/trailblazer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geofsu/trailblazer/issues"
+  },
+  "homepage": "https://github.com/geofsu/trailblazer#readme"
+}

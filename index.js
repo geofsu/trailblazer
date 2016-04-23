@@ -123,3 +123,20 @@ function sendGenericMessage(sender) {
         }
     })
 }
+
+
+var pg = require('pg');
+
+var DATABASE_URL = 'postgres://tkkktgmwasgzis:8ZYY3XZKr_Li-EsxFzmGdQX4ZW@ec2-50-16-200-223.compute-1.amazonaws.com:5432/dced00g9j2sfrp';
+
+pg.defaults.ssl = true;
+pg.connect(process.env.DATABASE_URL, function(err, client) {
+  if (err) throw err;
+  console.log('Connected to postgres! Getting schemas...');
+
+  client
+    .query('SELECT table_schema,table_name FROM information_schema.tables;')
+    .on('row', function(row) {
+      console.log(JSON.stringify(row));
+    });
+});

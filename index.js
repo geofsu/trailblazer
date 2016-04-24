@@ -37,8 +37,8 @@ app.post('/webhook/', function (req, res) {
         sender = event.sender.id
         if (event.message && event.message.text) {
             text = event.message.text
-            if (text === 'Generic') {
-                sendGenericMessage(sender)
+            if (text === '2') {
+                sendLess2Message(sender)
                 continue
             }
             sendTextMessage(sender, "Text received, echo: " + text.substring(0, 200))
@@ -97,7 +97,7 @@ function sendTextMessage(sender, text) {
 }
 
 
-function sendGenericMessage(sender) {
+function sendLess2Message(sender) {
     messageData = {
         "attachment": {
             "type": "template",

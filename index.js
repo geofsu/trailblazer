@@ -54,18 +54,26 @@ app.post('/webhook/', function (req, res) {
 
 var token = "CAAWpnyuovccBALyR77qRFA2zGj8BYdwoyaT2lXtObZBIAB4zQZC8up7oupVH5NmrtpQZBRRw9LKonE7fZB38KiHgI3ToyPxoBEaKZA1Ll2PdE6QZBgdvjscf7uwnZAjAcGRbfuhxIzxVZAAyg004v5DB7Ffk2tYx4Mvy8cKxGwf8hZBkjhuaNmr2duwLffodYpxgZD"
 
-//Allows viewing of the database
-app.get('/db', function (request, response) {
-  pg.connect(process.env.DATABASE_URL, function(err, client, done) {
-    client.query('SELECT * FROM trails', function(err, result) {
-      done();
-      if (err)
-       { console.error(err); response.send("Error " + err); }
-      else
-       { response.render('pages/db', {results: result.rows} ); }
-    });
-  });
-})
+// //Allows viewing of the database
+// var pg = require('pg');
+//
+// var DATABASE_URL = "postgres://tkkktgmwasgzis:8ZYY3XZKr_Li-EsxFzmGdQX4ZW@ec2-50-16-200-223.compute-1.amazonaws.com:5432/dced00g9j2sfrp";
+//
+// var conString = "postgres://username:password@localhost/database";
+//
+// app.get('/db', function (request, response) {
+//   pg.connect(process.env.DATABASE_URL, function(err, client, done) {
+//     client.query('SELECT * FROM trails', function(err, result) {
+//       console.log (result);
+//       done();
+//       if (err)
+//        { console.error(err); response.send("Error " + err); }
+//       else
+//        { response.render('pages/db', {results: result.rows} ); }
+//     });
+//   });
+// })
+
 
 function sendTextMessage(sender, text) {
     messageData = {
@@ -87,6 +95,7 @@ function sendTextMessage(sender, text) {
         }
     })
 }
+
 
 function sendGenericMessage(sender) {
     messageData = {

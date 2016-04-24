@@ -1,0 +1,1439 @@
+{
+ "displayFieldName": "PARKNAME",
+ "fieldAliases": {
+  "TRAILNAME": "Trail Name",
+  "TRAIL_LEN": "Trail Length",
+  "TRAILHEADS": "Trail Heads",
+  "LOOPNAME": "LOOPNAME",
+  "TRAILMAPWEBLINK": "Trail or Park Weblink"
+ },
+ "fields": [
+  {
+   "name": "TRAILNAME",
+   "type": "esriFieldTypeString",
+   "alias": "Trail Name",
+   "length": 75
+  },
+  {
+   "name": "TRAIL_LEN",
+   "type": "esriFieldTypeString",
+   "alias": "Trail Length",
+   "length": 20
+  },
+  {
+   "name": "TRAILHEADS",
+   "type": "esriFieldTypeString",
+   "alias": "Trail Heads",
+   "length": 3
+  },
+  {
+   "name": "LOOPNAME",
+   "type": "esriFieldTypeString",
+   "alias": "LOOPNAME",
+   "length": 75
+  },
+  {
+   "name": "TRAILMAPWEBLINK",
+   "type": "esriFieldTypeString",
+   "alias": "Trail or Park Weblink",
+   "length": 255
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "TRAILNAME": "Aucilla River Paddling Trail",
+    "TRAIL_LEN": "27.00 mi / 43.45 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.dep.state.fl.us/gwt/guide/designated_paddle/Aucilla_guide.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lines Tract Off Road Bicycle Trail",
+    "TRAIL_LEN": "10.00 mi / 16.09 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.floridaforestservice.com/state_forests/sf_pdf/lake_talquin3.gif"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Terry L Rhodes Trail System",
+    "TRAIL_LEN": "3.00 mi / 4.83 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Bear Creek Trail",
+    "TRAILMAPWEBLINK": "http://www.freshfromflorida.com/content/download/4820/30693/lake_talquin_bear_creek_tw.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Terry L Rhodes Trail System",
+    "TRAIL_LEN": "0.66 mi / 1.06 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "Living Forest Trail",
+    "TRAILMAPWEBLINK": "None"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Terry L Rhodes Trail System",
+    "TRAIL_LEN": "1.80 mi / 2.90 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Ravine Trail",
+    "TRAILMAPWEBLINK": "http://www.freshfromflorida.com/content/download/4820/30693/lake_talquin_bear_creek_tw.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Ochlockonee River Paddling Trail",
+    "TRAIL_LEN": "62.00 mi / 99.78 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Lower Ochlockonee River Canoe Trail",
+    "TRAILMAPWEBLINK": "http://www.dep.state.fl.us/gwt/guide/designated_paddle/lOchlock_guide.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Multi-Use Trails",
+    "TRAIL_LEN": "2.60 mi / 4.18 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "https://www.floridastateparks.org/park-documents/Ochlockonee-River/map"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Wacissa River Paddling Trail",
+    "TRAIL_LEN": "15.00 mi / 24.14 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.dep.state.fl.us/gwt/guide/designated_paddle/Wacissa_guide.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Wakulla River Paddling Trail",
+    "TRAIL_LEN": "7.60 mi / 12.23 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.dep.state.fl.us/gwt/guide/designated_paddle/Wakulla_guide.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "St Marks Trail",
+    "TRAIL_LEN": "8.26 mi / 13.30 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "https://www.floridastateparks.org/sites/default/files/Division%20of%20Recreation%20and%20Parks/documents/Map-Tlh_StMarks.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Access Road",
+    "TRAIL_LEN": "1.13 mi / 1.81 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/phipps.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Access Trail",
+    "TRAIL_LEN": "0.7 mi / 1.12 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/phipps.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "AJ Henry Trail",
+    "TRAIL_LEN": "0.07 mi / 0.11 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "BoardWalk Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/ajhenry-map.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "AJ Henry Trail",
+    "TRAIL_LEN": "0.45 mi / 0.73 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Paved Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/ajhenry-map.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "AJ Henry Trail",
+    "TRAIL_LEN": "1.32 mi / 2.13 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Unpaved Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/ajhenry-map.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Alfred B. Maclay Gardens State Park Trail",
+    "TRAIL_LEN": "0.74 mi / 1.2 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Big Pine Nature Trail",
+    "TRAILMAPWEBLINK": "https://www.floridastateparks.org/sites/default/files/Division%20of%20Recreation%20and%20Parks/documents/abm-brochure_0.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Alfred B. Maclay Gardens State Park Trail",
+    "TRAIL_LEN": "2.79 mi / 4.49 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Karst Trail",
+    "TRAILMAPWEBLINK": "https://www.floridastateparks.org/sites/default/files/Division%20of%20Recreation%20and%20Parks/documents/abm-brochure_0.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Alfred B. Maclay Gardens State Park Trail",
+    "TRAIL_LEN": "5.09 mi / 8.2 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "Lake Overstreet Trail",
+    "TRAILMAPWEBLINK": "https://www.floridastateparks.org/sites/default/files/Division%20of%20Recreation%20and%20Parks/documents/abm-brochure_0.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Alfred B. Maclay Gardens State Park Trail",
+    "TRAIL_LEN": "0.07 mi / 0.11 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Lake Overstreet Trail Access",
+    "TRAILMAPWEBLINK": "https://www.floridastateparks.org/sites/default/files/Division%20of%20Recreation%20and%20Parks/documents/abm-brochure_0.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "ANF Motorcycle Trail",
+    "TRAIL_LEN": "48.89 mi / 78.68 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5270709.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "ANF Motorcycle Trail",
+    "TRAIL_LEN": "0.08 mi / 0.13 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Dog Lake Motorcycle Trail Access",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5270709.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "ANF Motorcycle Trail",
+    "TRAIL_LEN": "0.61 mi / 0.99 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "Lost Lake Motorcycle Trail Access",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5270709.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "ANF OHV Trail",
+    "TRAIL_LEN": "61.19 mi / 98.47 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5270709.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "ANF OHV Trail",
+    "TRAIL_LEN": "0.48 mi / 0.77 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Sand Fly OHV Trail Access",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5270709.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "ANF OHV Trail",
+    "TRAIL_LEN": "0.24 mi / 0.38 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "Silver Lake OHV/Motorcycle Trail Access",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5270709.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "ANF OHV Trail",
+    "TRAIL_LEN": "0.31 mi / 0.49 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Vinzant OHV Trail Access",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5270709.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Apalachee East Trail",
+    "TRAIL_LEN": "0.6 mi / 0.97 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Blair Stone Trail",
+    "TRAIL_LEN": "1.91 mi / 3.07 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Brinkley Glen Trail",
+    "TRAIL_LEN": "0.38 mi / 0.61 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Capital Circle Southeast Trail",
+    "TRAIL_LEN": "2.73 mi / 4.4 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Carter Howell Strong Park Sidewalk",
+    "TRAIL_LEN": "0.5 mi / 0.8 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Doak Campbell Stadium Trail",
+    "TRAIL_LEN": "1.53 mi / 2.46 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "None"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "FDOT Myers Park Loop",
+    "TRAIL_LEN": "0.4 mi / 0.64 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fern Trail",
+    "TRAIL_LEN": "1.62 mi / 2.61 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/ferntrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fern Trail",
+    "TRAIL_LEN": "1.55 mi / 2.49 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fort Braden Equestrian Trail",
+    "TRAIL_LEN": "3.86 mi / 6.21 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "East Equestrian Loop",
+    "TRAILMAPWEBLINK": "http://www.freshfromflorida.com/content/download/27760/645493/lake_talquin_ft_braden_tt.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fort Braden Equestrian Trail",
+    "TRAIL_LEN": "0.08 mi / 0.12 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.freshfromflorida.com/content/download/27760/645493/lake_talquin_ft_braden_tt.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fort Braden Equestrian Trail",
+    "TRAIL_LEN": "5.21 mi / 8.38 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "West Equestrian Loop",
+    "TRAILMAPWEBLINK": "http://www.freshfromflorida.com/content/download/27760/645493/lake_talquin_ft_braden_tt.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fort Braden Hiking Trail",
+    "TRAIL_LEN": "1.61 mi / 2.59 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Center Hiking Loop North",
+    "TRAILMAPWEBLINK": "http://www.freshfromflorida.com/content/download/27764/645513/lake_talquin_ft_braden_tw.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fort Braden Hiking Trail",
+    "TRAIL_LEN": "0.61 mi / 0.98 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Center Hiking Loop South",
+    "TRAILMAPWEBLINK": "http://www.freshfromflorida.com/content/download/27764/645513/lake_talquin_ft_braden_tw.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fort Braden Hiking Trail",
+    "TRAIL_LEN": "3.18 mi / 5.11 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "East Hiking Loop",
+    "TRAILMAPWEBLINK": "http://www.freshfromflorida.com/content/download/27764/645513/lake_talquin_ft_braden_tw.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fort Braden Hiking Trail",
+    "TRAIL_LEN": "3.15 mi / 5.08 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "West Hiking Loop",
+    "TRAILMAPWEBLINK": "http://www.freshfromflorida.com/content/download/27764/645513/lake_talquin_ft_braden_tw.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Garden Path",
+    "TRAIL_LEN": "0.04 mi / 0.06 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Oven Park Boardwalk",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Garden Path",
+    "TRAIL_LEN": "0.11 mi / 0.17 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Oven Park Gravel Path",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Garden Path",
+    "TRAIL_LEN": "0.11 mi / 0.17 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Oven Park Mulched Path",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "GFA Trail",
+    "TRAIL_LEN": "2.41 mi / 3.87 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/bicycling/recarea/?recid=75222&actid=26"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Goose Pond Trail",
+    "TRAIL_LEN": "3.76 mi / 6.05 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/ferntrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Goose Pond Trail",
+    "TRAIL_LEN": "1.54 mi / 2.48 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/tombrownpermit.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Guyte P McCord Walking Path",
+    "TRAIL_LEN": "0.25 mi / 0.41 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Guyte P McCord Walking Path",
+    "TRAIL_LEN": "0.23 mi / 0.36 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Horse Trail",
+    "TRAIL_LEN": "0.53 mi / 0.85 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/phipps.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Indianhead Trail",
+    "TRAIL_LEN": "0.14 mi / 0.22 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Indian Head Acres Park"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "J R Alford Greenway Trail",
+    "TRAIL_LEN": "0.05 mi / 0.08 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Access Trail",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=J. R. Alford Greenway"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "J R Alford Greenway Trail",
+    "TRAIL_LEN": "0.17 mi / 0.27 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Hiking Trail",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=J. R. Alford Greenway"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "J R Alford Greenway Trail",
+    "TRAIL_LEN": "1.74 mi / 2.8 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Shared-Use Trail",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=J. R. Alford Greenway"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "J R Alford Greenway Trail",
+    "TRAIL_LEN": "13.51 mi / 21.74 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Shared-Use Trail",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=J. R. Alford Greenway"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "J R Alford Greenway Trail",
+    "TRAIL_LEN": "1.84 mi / 2.96 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Shared-Use Trail",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=J. R. Alford Greenway"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Jackson View Trail",
+    "TRAIL_LEN": "0.02 mi / 0.03 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "BoardWalk Trail",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Jackson View Park"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Jackson View Trail",
+    "TRAIL_LEN": "0.85 mi / 1.37 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Unpaved Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Kerry Forest Parkway Bike Path",
+    "TRAIL_LEN": "1.45 mi / 2.33 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Kohls Trail",
+    "TRAIL_LEN": "1.83 mi / 2.94 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/lafheritagemap.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Heritage Trail",
+    "TRAIL_LEN": "0.11 mi / 0.17 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "Access Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/lafheritagemap.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Heritage Trail",
+    "TRAIL_LEN": "2.45 mi / 3.94 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "East Cadillac Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/lafheritagemap.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Heritage Trail",
+    "TRAIL_LEN": "0.01 mi / 0.02 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "East Shared-Use",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/lafheritagemap.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Heritage Trail",
+    "TRAIL_LEN": "0.06 mi / 0.09 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "East Shared-Use",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/lafheritagemap.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Heritage Trail",
+    "TRAIL_LEN": "3.15 mi / 5.07 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "East Shared-Use",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/lafheritagemap.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Heritage Trail",
+    "TRAIL_LEN": "0.77 mi / 1.23 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Loblolly Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/lafheritagemap.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Heritage Trail",
+    "TRAIL_LEN": "0.11 mi / 0.17 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "West Cadillac Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/lafheritagemap.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Heritage Trail",
+    "TRAIL_LEN": "1.55 mi / 2.5 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "West Cadillac Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/lafheritagemap.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Heritage Trail",
+    "TRAIL_LEN": "1.79 mi / 2.88 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "West Shared-Use",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/laftrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Heritage Trail",
+    "TRAIL_LEN": "0.13 mi / 0.22 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "West Shared-Use",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/lafheritagemap.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Park Fitness Trail",
+    "TRAIL_LEN": "0.67 mi / 1.08 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Passage Canoe Trail",
+    "TRAIL_LEN": "0.41 mi / 0.66 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Cypress Branch",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/laftrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Passage Canoe Trail",
+    "TRAIL_LEN": "0.6 mi / 0.96 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Lafayette Passage",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/laftrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Passage Canoe Trail",
+    "TRAIL_LEN": "0.14 mi / 0.23 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Passage Canoe Trail",
+    "TRAIL_LEN": "0.34 mi / 0.54 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Marsh Meander",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/laftrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Passage Canoe Trail",
+    "TRAIL_LEN": "0.69 mi / 1.11 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "North Branch",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/lafheritagemap.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Passage Canoe Trail",
+    "TRAIL_LEN": "0.91 mi / 1.46 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "North Branch",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/laftrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Passage Canoe Trail",
+    "TRAIL_LEN": "0.9 mi / 1.45 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Piney Z Portage",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/laftrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Passage Canoe Trail",
+    "TRAIL_LEN": "2.12 mi / 3.4 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "South Branch",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/laftrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lafayette Passage Canoe Trail",
+    "TRAIL_LEN": "0.31 mi / 0.5 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Wood Duck Way",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/laftrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lake Elberta Trail",
+    "TRAIL_LEN": "0.72 mi / 1.16 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lake Elberta Trail",
+    "TRAIL_LEN": "0.02 mi / 0.03 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Paved Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lake Ella Sidewalk",
+    "TRAIL_LEN": "0.66 mi / 1.07 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lake Henrietta Trail",
+    "TRAIL_LEN": "1.28 mi / 2.05 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Lake Henrietta Park"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lake Jackson Mounds Trail",
+    "TRAIL_LEN": "0.86 mi / 1.38 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "https://www.floridastateparks.org/park-activities/Lake-Jackson#Hiking-Nature-Trail"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Lake Talquin Trail",
+    "TRAIL_LEN": "1.15 mi / 1.85 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "River Bluff Loop",
+    "TRAILMAPWEBLINK": "https://www.floridastateparks.org/park-activities/Lake-Talquin#Hiking-Nature-Trail"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Leon Sinks Geological Area Hiking Trail",
+    "TRAIL_LEN": "0.5 mi / 0.8 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Crossover Trail",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/hiking/recarea/?recid=75300&actid=50"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Leon Sinks Geological Area Hiking Trail",
+    "TRAIL_LEN": "1.66 mi / 2.67 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Gumswamp Trail",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/hiking/recarea/?recid=75300&actid=50"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Leon Sinks Geological Area Hiking Trail",
+    "TRAIL_LEN": "0.03 mi / 0.05 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Lost Stream Overlook",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/hiking/recarea/?recid=75300&actid=50"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Leon Sinks Geological Area Hiking Trail",
+    "TRAIL_LEN": "2.34 mi / 3.76 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "Sinkhole Trail",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/hiking/recarea/?recid=75300&actid=50"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Leon Sinks Geological Area Hiking Trail",
+    "TRAIL_LEN": "0.07 mi / 0.12 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Sinkhole Trail Access North",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/hiking/recarea/?recid=75300&actid=50"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Leon Sinks Geological Area Hiking Trail",
+    "TRAIL_LEN": "0.05 mi / 0.09 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "Sinkhole Trail Access South",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/hiking/recarea/?recid=75300&actid=50"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Magnolia Trail",
+    "TRAIL_LEN": "0.06 mi / 0.09 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Gravity Cavity",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/magnoliatrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Magnolia Trail",
+    "TRAIL_LEN": "0.34 mi / 0.54 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Kudzilla",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/magnoliatrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Magnolia Trail",
+    "TRAIL_LEN": "2.7 mi / 4.34 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/magnoliatrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Magnolia Trail",
+    "TRAIL_LEN": "0.18 mi / 0.3 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Pandora's Box",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/magnoliatrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Magnolia Trail",
+    "TRAIL_LEN": "0.05 mi / 0.07 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Skills Area",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/magnoliatrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Magnolia Trail",
+    "TRAIL_LEN": "0.16 mi / 0.26 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "TryCycle",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/magnoliatrail.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Martha Wellman Trail",
+    "TRAIL_LEN": "0.75 mi / 1.2 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Martha Wellman Park"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Miccosukee Greenway Trail",
+    "TRAIL_LEN": "0.29 mi / 0.47 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Access Trail",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Miccosukee Canopy Road Greenway"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Miccosukee Greenway Trail",
+    "TRAIL_LEN": "1.16 mi / 1.86 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Edenfield Loop",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Miccosukee Canopy Road Greenway"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Miccosukee Greenway Trail",
+    "TRAIL_LEN": "0.2 mi / 0.33 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Hiking Trail",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Miccosukee Canopy Road Greenway"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Miccosukee Greenway Trail",
+    "TRAIL_LEN": "0.02 mi / 0.03 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Shared-Use Trail",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Miccosukee Canopy Road Greenway"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Miccosukee Greenway Trail",
+    "TRAIL_LEN": "0.22 mi / 0.36 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Shared-Use Trail",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Miccosukee Canopy Road Greenway"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Miccosukee Greenway Trail",
+    "TRAIL_LEN": "14.13 mi / 22.75 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Shared-Use Trail",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Miccosukee Canopy Road Greenway"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Miccosukee Greenway Trail",
+    "TRAIL_LEN": "1.13 mi / 1.82 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Thornton Rd Loop",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Miccosukee Canopy Road Greenway"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Munson Hills Off-Road Bike Trail",
+    "TRAIL_LEN": "0.65 mi / 1.04 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "East Connector",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/bicycling/recarea/?recid=75239&actid=24"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Munson Hills Off-Road Bike Trail",
+    "TRAIL_LEN": "0.15 mi / 0.23 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Gun Range Shortcut",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/bicycling/recarea/?recid=75239&actid=24"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Munson Hills Off-Road Bike Trail",
+    "TRAIL_LEN": "0.4 mi / 0.65 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Luge",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/bicycling/recarea/?recid=75239&actid=24"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Munson Hills Off-Road Bike Trail",
+    "TRAIL_LEN": "7.48 mi / 12.03 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Munson Hills Loop",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/bicycling/recarea/?recid=75239&actid=24"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Munson Hills Off-Road Bike Trail",
+    "TRAIL_LEN": "0.51 mi / 0.82 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Munson Hills Loop Access North",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/bicycling/recarea/?recid=75239&actid=24"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Munson Hills Off-Road Bike Trail",
+    "TRAIL_LEN": "0.1 mi / 0.16 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Munson Hills Loop Access South",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/bicycling/recarea/?recid=75239&actid=24"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Munson Hills Off-Road Bike Trail",
+    "TRAIL_LEN": "0.97 mi / 1.56 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Tall Pines Shortcut",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/bicycling/recarea/?recid=75239&actid=24"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Munson Hills Off-Road Bike Trail",
+    "TRAIL_LEN": "9.3 mi / 14.97 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Twilight Loop",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/bicycling/recarea/?recid=75239&actid=24"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Munson Hills Off-Road Bike Trail",
+    "TRAIL_LEN": "0.11 mi / 0.18 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Twilight Loop Access",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/bicycling/recarea/?recid=75239&actid=24"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Munson Hills Off-Road Bike Trail",
+    "TRAIL_LEN": "0.6 mi / 0.97 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "West Connector",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/bicycling/recarea/?recid=75239&actid=24"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Myers Park Sidewalk",
+    "TRAIL_LEN": "0.8 mi / 1.29 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "FDOT Myers Loop",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Myers Trail",
+    "TRAIL_LEN": "1.2 mi / 1.93 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Ochlockonee River Paddling Trail",
+    "TRAIL_LEN": "11.61 mi / 18.69 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Lower Ochlockonee River Canoe Trail",
+    "TRAILMAPWEBLINK": "http://www.dep.state.fl.us/gwt/guide/designated_paddle/lOchlock_guide.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Ochlockonee River Paddling Trail",
+    "TRAIL_LEN": "27.38 mi / 44.07 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Upper Ochlockonee River Canoe Trail",
+    "TRAILMAPWEBLINK": "http://www.dep.state.fl.us/gwt/guide/designated_paddle/upperOchlock_guide.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Pedrick Pond Trail",
+    "TRAIL_LEN": "0.78 mi / 1.26 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Pedrick Pond"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Phipps Hiking Trail",
+    "TRAIL_LEN": "0.18 mi / 0.29 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Big Tree Cutoff",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/phipps.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Phipps Hiking Trail",
+    "TRAIL_LEN": "1.37 mi / 2.2 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Coon Bottom Loop",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/phipps.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Phipps Hiking Trail",
+    "TRAIL_LEN": "0.72 mi / 1.17 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Creek Forest Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/phipps.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Phipps Hiking Trail",
+    "TRAIL_LEN": "0.32 mi / 0.52 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "Hiking Access Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/phipps.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Phipps Hiking Trail",
+    "TRAIL_LEN": "2.37 mi / 3.81 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Oak Hammock Loop",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/phipps.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Phipps Hiking Trail",
+    "TRAIL_LEN": "0.12 mi / 0.19 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Swamp Forest and Coon Bottom Loop",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/phipps.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Phipps Hiking Trail",
+    "TRAIL_LEN": "1.65 mi / 2.66 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Swamp Forest Loop",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/phipps.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Phipps Shared-Use Trail",
+    "TRAIL_LEN": "7.46 mi / 12.01 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/phipps.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Redbug Trail",
+    "TRAIL_LEN": "0.04 mi / 0.07 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "Access Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/phipps.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Redbug Trail",
+    "TRAIL_LEN": "3.69 mi / 5.93 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/phipps.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "San Luis Trail",
+    "TRAIL_LEN": "0.42 mi / 0.67 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Apalachee Loop",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "San Luis Trail",
+    "TRAIL_LEN": "0.34 mi / 0.55 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Bentura's Loop",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "San Luis Trail",
+    "TRAIL_LEN": "0.12 mi / 0.19 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "BoardWalk Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "San Luis Trail",
+    "TRAIL_LEN": "0.11 mi / 0.18 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Diego's Loop",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "San Luis Trail",
+    "TRAIL_LEN": "0.18 mi / 0.29 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Luis Luis Loop",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "San Luis Trail",
+    "TRAIL_LEN": "0.36 mi / 0.57 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Paved Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "San Luis Trail",
+    "TRAIL_LEN": "1.56 mi / 2.5 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Unpaved Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Silver Lake Habitat Trail",
+    "TRAIL_LEN": "1.18 mi / 1.9 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.fs.usda.gov/recarea/apalachicola/recreation/hiking/recarea/?recid=75305&actid=50"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Southwood Trail",
+    "TRAIL_LEN": "1.4 mi / 2.25 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://southwoodflorida.com/Contents/PDF/TrailMap.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Speed Spencer Stephens Walking Path",
+    "TRAIL_LEN": "0.2 mi / 0.32 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "St Marks Trail",
+    "TRAIL_LEN": "4.47 mi / 7.2 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "https://www.floridastateparks.org/sites/default/files/Division%20of%20Recreation%20and%20Parks/documents/Map-Tlh_StMarks.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "St Marks Trail",
+    "TRAIL_LEN": "7.27 mi / 11.7 km",
+    "TRAILHEADS": "Yes",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "https://www.floridastateparks.org/sites/default/files/Division%20of%20Recreation%20and%20Parks/documents/Map-Tlh_StMarks.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Timberlane Ravine Trail",
+    "TRAIL_LEN": "0.96 mi / 1.55 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/parks/parks-parks-trails-map.aspx"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Tom Brown Nature Trail",
+    "TRAIL_LEN": "1.59 mi / 2.56 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Nature Trail",
+    "TRAILMAPWEBLINK": "http://www.talgov.com/Uploads/Public/Documents/parks/pdf/tombrownpermit.pdf"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Apalachee Regional Park Trail",
+    "TRAIL_LEN": "3.19 mi / 5.14 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": "Cross Country Track",
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Apalachee Regional Park"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fred George Greenway Trail",
+    "TRAIL_LEN": "0.88 mi / 1.42 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": null,
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Fred George Greenway and Park"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fred George Greenway Trail",
+    "TRAIL_LEN": "0.25 mi / 0.40 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": null,
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Fred George Greenway and Park"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fred George Greenway Trail",
+    "TRAIL_LEN": "0.36 mi / 0.58 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": null,
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Fred George Greenway and Park"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fred George Greenway Trail",
+    "TRAIL_LEN": "0.29 mi / 0.47 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": null,
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Fred George Greenway and Park"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fred George Greenway Trail",
+    "TRAIL_LEN": "0.03 mi / 0.05 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": null,
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Fred George Greenway and Park"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fred George Greenway Trail",
+    "TRAIL_LEN": "0.88 mi / 1.42 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": null,
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Fred George Greenway and Park"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fred George Greenway Trail",
+    "TRAIL_LEN": "0.36 mi / 0.58 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": null,
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Fred George Greenway and Park"
+   }
+  },
+  {
+   "attributes": {
+    "TRAILNAME": "Fred George Greenway Trail",
+    "TRAIL_LEN": "0.59 mi / 0.95 km",
+    "TRAILHEADS": "No",
+    "LOOPNAME": null,
+    "TRAILMAPWEBLINK": "http://tlcgisinter.leoncountyfl.gov/parks/index.html?esearch=Fred George Greenway and Park"
+   }
+  }
+ ]
+}

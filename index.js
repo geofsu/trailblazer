@@ -29,6 +29,7 @@ app.listen(app.get('port'), function() {
     console.log('running on port', app.get('port'))
 })
 
+//Webhook for reading messages
 app.post('/webhook/', function (req, res) {
     messaging_events = req.body.entry[0].messaging
     for (i = 0; i < messaging_events.length; i++) {
@@ -36,7 +37,7 @@ app.post('/webhook/', function (req, res) {
         sender = event.sender.id
         if (event.message && event.message.text) {
             text = event.message.text
-            if (text === 'Test') {
+            if (text === 'Generic') {
                 sendGenericMessage(sender)
                 continue
             }
@@ -53,6 +54,18 @@ app.post('/webhook/', function (req, res) {
 
 var token = "CAAWpnyuovccBALyR77qRFA2zGj8BYdwoyaT2lXtObZBIAB4zQZC8up7oupVH5NmrtpQZBRRw9LKonE7fZB38KiHgI3ToyPxoBEaKZA1Ll2PdE6QZBgdvjscf7uwnZAjAcGRbfuhxIzxVZAAyg004v5DB7Ffk2tYx4Mvy8cKxGwf8hZBkjhuaNmr2duwLffodYpxgZD"
 
+//Allows viewing of the database
+app.get('/db', function (request, response) {
+  pg.connect(process.env.DATABASE_URL, function(err, client, done) {
+    client.query('SELECT * FROM trails', function(err, result) {
+      done();
+      if (err)
+       { console.error(err); response.send("Error " + err); }
+      else
+       { response.render('pages/db', {results: result.rows} ); }
+    });
+  });
+})
 
 function sendTextMessage(sender, text) {
     messageData = {

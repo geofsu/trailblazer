@@ -104,13 +104,13 @@ function sendGenericMessage(sender) {
             "payload": {
                 "template_type": "generic",
                 "elements": [{
-                    "title": "First card",
-                    "subtitle": "Element #1 of an hscroll",
-                    "image_url": "http://messengerdemo.parseapp.com/img/rift.png",
+                    "title": "Fern Trail",
+                    "subtitle": "1.62 mi",
+                    "image_url": "http://defencely.com/blog/wp-content/uploads/2013/06/ways-hackers-hack-your-website-e1371080108770.jpg",
                     "buttons": [{
                         "type": "web_url",
-                        "url": "https://www.messenger.com",
-                        "title": "web url"
+                        "url": "http://talgov.com/Uploads/Public/Documents/parks/pdf/ferntrail.pdf",
+                        "title": "Map of trail"
                     }, {
                         "type": "postback",
                         "title": "Postback",

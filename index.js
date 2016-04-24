@@ -41,7 +41,6 @@ app.post('/webhook/', function (req, res) {
                 sendLess2Message(sender)
                 continue
             }
-            sendTextMessage(sender, text.substring(0, 200) + "is unavailable.")
             if (text === '1') {
               sendLess1message(sender)
               continue
